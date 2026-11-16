@@ -2,13 +2,13 @@
   <defs>
     <radialGradient id="c" cx="50%" cy="45%" r="55%">
       <stop offset="0" stop-color="#FFF6DF"/>
-      <stop offset=".6" stop-color="#F0D19A"/>
-      <stop offset="1" stop-color="#E3AFA3"/>
+      <stop offset=".6" stop-color="#EBC98E"/>
+      <stop offset="1" stop-color="#C9763F"/>
     </radialGradient>
   </defs>
-  <g stroke="#B98F4C" stroke-width="2.4" stroke-linecap="round">
+  <g stroke="#A8834A" stroke-width="2.4" stroke-linecap="round">
     <path d="M32 3v8M32 53v8M3 32h8M53 32h8M11.5 11.5l5.6 5.6M46.9 46.9l5.6 5.6M11.5 52.5l5.6-5.6M46.9 17.1l5.6-5.6"/>
   </g>
-  <circle cx="32" cy="32" r="16" fill="url(#c)" stroke="#B98F4C" stroke-width="1.6"/>
+  <circle cx="32" cy="32" r="16" fill="url(#c)" stroke="#A8834A" stroke-width="1.6"/>
   <path d="M32 24l1.6 6.4L40 32l-6.4 1.6L32 40l-1.6-6.4L24 32l6.4-1.6Z" fill="#FFFFFF" opacity=".95"/>
 </svg>

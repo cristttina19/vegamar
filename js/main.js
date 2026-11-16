@@ -1,4 +1,4 @@
-// Vegamar page behaviour: WhatsApp links, mobile menu, sparkles and hiding past events.
+// Vegamar page behaviour: WhatsApp links, sparkles and hiding past events.
 (() => {
   "use strict";
 
@@ -10,21 +10,6 @@
     link.href = `${WHATSAPP}?text=${encodeURIComponent(link.dataset.wa)}`;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-  }
-
-  // Mobile menu
-  const menuButton = document.querySelector(".menu-btn");
-  const menu = document.getElementById("menu");
-  if (menuButton && menu) {
-    const setOpen = open => {
-      menu.classList.toggle("open", open);
-      menuButton.setAttribute("aria-expanded", String(open));
-      menuButton.textContent = open ? "Cerrar" : "Menú";
-    };
-    menuButton.addEventListener("click", () => setOpen(!menu.classList.contains("open")));
-    menu.addEventListener("click", event => {
-      if (event.target.closest("a")) setOpen(false);
-    });
   }
 
   // Events hide themselves after their date (data-until="YYYY-MM-DD", the last day they are shown)
@@ -43,14 +28,14 @@
   if (empty) empty.hidden = visible > 0;
 
   // Sparkles: small twinkling stars and dots inside every [data-sparkles="count"] box
-  const colors = ["#c9a35f", "#e6c88a", "#ffffff", "#d9a6b0", "#b9a3d8"];
+  const colors = ["#a8834a", "#d9bf8c", "#ebc98e", "#fff4de"]; // golds and warm light
   const random = (min, max) => min + Math.random() * (max - min);
   for (const box of document.querySelectorAll("[data-sparkles]")) {
     const count = Number(box.dataset.sparkles) || 0;
     for (let i = 0; i < count; i += 1) {
       const sparkle = document.createElement("span");
       sparkle.className = Math.random() < 0.35 ? "sparkle dot" : "sparkle";
-      const size = sparkle.classList.contains("dot") ? random(3, 6) : random(8, 20);
+      const size = sparkle.classList.contains("dot") ? random(3, 6) : random(7, 15);
       sparkle.style.setProperty("--x", `${random(2, 98)}%`);
       sparkle.style.setProperty("--y", `${random(4, 96)}%`);
       sparkle.style.setProperty("--s", `${size}px`);

@@ -11,7 +11,7 @@ to main publishes the web (`.github/workflows/pages.yml`, GitHub Pages via Actio
   Instagram @vegamar__ (name "Verónica Garijo | Amor, Calma y Gozo en lo simple", bio "Te ayudo a dejar de
   sobrevivir tu vida y empezar a gozártela", "21 NOV - clase gratuita"). The "Sobre mí" paragraph and the short
   service descriptions are drafts written by Claude: to be checked by Vero.
-- Files: `index.html` (all content), `css/estilo.css` (palette in `:root`: cream, blush, lavender, plum, gold),
+- Files: `index.html` (all content), `css/estilo.css` (palette in `:root`: Vero's garnet, teja orange, gold, cream — provisional until she sends her exact palette),
   `css/fonts.css` + `fonts/` (Fraunces, Work Sans, local), `js/main.js` (WhatsApp links from `data-wa`, phone menu,
   sparkles from `data-sparkles`, hides `.event` after `data-until`), `img/favicon.svg` (sun mark).
 - Strict Content-Security-Policy meta: no inline scripts or `style=""` attributes; no third-party requests.
@@ -19,3 +19,8 @@ to main publishes the web (`.github/workflows/pages.yml`, GitHub Pages via Actio
   node_modules here: run the tools from `..\web-chacinas-prime` with absolute paths (npx html-validate / stylelint /
   prettier). Check with Playwright (`channel="msedge"`) at 1366 px and 390 px.
 - Published since 2026-11-16: public repo github.com/cristttina19/vegamar → https://cristttina19.github.io/vegamar/
+- Vero's feedback (2026-11-16): her colours are garnet, terracotta orange, gold and cream; more elegant look; landing
+  must be short and easy to scan. Fixed order: free masterclass first → sessions → recorded courses (still being made)
+  → «Volver a ti» (programa de transformación en el camino al éxtasis, 8 semanas de acompañamiento, 897 €; during
+  launches she lowers it to 677/693 €). Lectura álmica = 150 € (sesión + documento PDF). She helps «personas», not
+  only women. She will send photos, her exact palette and the descriptions of everything.
