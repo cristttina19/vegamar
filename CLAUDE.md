@@ -30,3 +30,6 @@ to main publishes the web (`.github/workflows/pages.yml`, GitHub Pages via Actio
   `.checklist`, `.steps`, `.about-mini`, `.faq` (details), `.final`. All landing copy beyond the facts is a draft
   by Claude, gender-neutral (she works with «personas»): replace it with Vero's descriptions when they arrive.
   Prices appear both on the home and on each landing. Photos: `img/fotos/` from Desktop\claudeegamar\perfil.jpeg.
+- Book: «Reconociéndome: la guía práctica para dejar de repetir patrones, entenderte y volver a ti» (Kindle eBook,
+  «VEGAMAR — Guías de Transformación nº 2», author Verónica Garijo Martínez). Cover from its Amazon page (B0H23WFJ4K).
+  Since the book is nº 2, there may be a nº 1.

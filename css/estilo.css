@@ -570,6 +570,12 @@ svg {
   border: 1px solid var(--line);
 }
 
+.book .meta {
+  display: block;
+  max-width: 260px;
+  line-height: 1.4;
+}
+
 .book strong {
   display: block;
   font-family: var(--serif);
@@ -580,21 +586,10 @@ svg {
 
 .book-cover {
   flex: none;
-  display: grid;
-  place-items: center;
-  width: 56px;
-  height: 80px;
-  padding: 6px;
-  border-radius: 2px 6px 6px 2px;
-  text-align: center;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 10px;
-  line-height: 1.15;
-  color: var(--cream);
-  background: linear-gradient(150deg, var(--teja), var(--garnet));
-  box-shadow: inset 4px 0 0 rgb(0 0 0 / 15%);
-  overflow-wrap: anywhere;
+  width: 64px;
+  height: auto;
+  border-radius: 2px;
+  box-shadow: 0 8px 18px rgb(43 36 32 / 22%);
 }
 
 .contact-buttons {

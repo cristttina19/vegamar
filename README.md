@@ -36,7 +36,7 @@ y abre http://127.0.0.1:8110 (Ctrl+C para pararla).
 | Mensajes de WhatsApp | atributo `data-wa="..."` de cada botón (el texto que ya llega escrito) |
 | Número / enlace de WhatsApp | `js/main.js`, constante `WHATSAPP` (solo ahí) |
 | Colores | `css/estilo.css`, al principio (`:root`) |
-| Fotos | `img/fotos/` (`vero-avatar.webp` redonda, `vero-retrato.webp`), sacadas de `Escritorio\claude\vegamar\perfil.jpeg` |
+| Fotos | `img/fotos/` (`vero-avatar.webp` redonda, `vero-retrato.webp`, `libro-reconociendome.webp` = portada de Amazon), sacadas de `Escritorio\claude\vegamar\perfil.jpeg` |
 | Brillitos | `data-sparkles="número"` en `index.html` (cuántos hay en cada zona) |
 
 Letras: Fraunces y Work Sans (las mismas que su página de enlaces), guardadas en `fonts/`: la web no pide nada a
@@ -54,7 +54,7 @@ Más adelante se le puede poner un dominio propio (por ejemplo `vegamar.es`) en 
 
 ## Pendiente
 
-- Portada del libro (ahora es un dibujo) y más fotos de Vero.
+- Más fotos de Vero.
 - Descripciones reales de cada sesión y programa (los textos de las landings son un borrador).
 - Imagen para la vista previa al compartir por WhatsApp (`og:image`, 1200×630).
 - Aviso legal (nombre, NIF y correo de Vero): obligatorio al vender servicios en la web.
