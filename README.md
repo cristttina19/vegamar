@@ -32,11 +32,13 @@ Google ni a nadie, así que no necesita aviso de cookies.
 
 ## Publicar en GitHub Pages
 
-1. Crear en GitHub un repositorio **público** llamado `vegamar` y subir esta carpeta.
-2. En el repositorio: *Settings → Pages → Build and deployment → Deploy from a branch*, rama `main`, carpeta `/ (root)`.
-3. En 1-2 minutos queda en `https://<usuario>.github.io/vegamar/`. Cada `git push` la actualiza.
+Publicada en **https://cristttina19.github.io/vegamar/** (repositorio `cristttina19/vegamar`).
 
-Más adelante se le puede poner un dominio propio (por ejemplo `vegamar.es`) en la misma pantalla de Pages.
+Se actualiza sola: cada `git push` a `main` la vuelve a publicar en 1-2 minutos
+(`.github/workflows/pages.yml`; se puede seguir en la pestaña *Actions* de GitHub). Solo se publican los archivos
+de la web (`index.html`, `css`, `js`, `fonts`, `img`).
+
+Más adelante se le puede poner un dominio propio (por ejemplo `vegamar.es`) en *Settings → Pages*.
 
 ## Pendiente
 

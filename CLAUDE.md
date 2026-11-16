@@ -2,9 +2,9 @@
 
 One-page static site (HTML/CSS/JS, no build step) for **Verónica Garijo — "Vegamar" / Espacio Ser**: spiritual
 services (reiki, womb cleansing/healing, soul reading), meditations, workshops, programmes, her book.
-Made for Cris (same owner as `web-chacinas-prime`, a beginner programmer): explain in **Spanish**, plainly.
-Code and comments in **English**, page text in Spanish. Commit locally; **push only when she asks** (pushing
-publishes once GitHub Pages is on). Don't invent business data (prices, dates, bio): ask.
+Made for Cris (same owner as `web-chacinas-prime`): explain in **Spanish**, plainly.
+Code and comments in **English**, page text in Spanish. Commit locally; **push only when she asks**: every push
+to main publishes the web (`.github/workflows/pages.yml`, GitHub Pages via Actions, only index.html, css, js, fonts, img). Don't invent business data (prices, dates, bio): ask.
 
 - Sources (2026-11-16): Vero's link page (claude.ai artifact QgMT7tBABfAYv1xCmQv9Pq: services, prices, WhatsApp
   message link 4CHVMTHTK6S3P1, Amazon link of «Reconociéndome», WhatsApp group of the free class) and her public
@@ -18,4 +18,4 @@ publishes once GitHub Pages is on). Don't invent business data (prices, dates, b
 - Style: same configs as web-chacinas-prime (`.prettierrc.json`, `.stylelintrc.json`, `.htmlvalidate.json`). No
   node_modules here: run the tools from `..\web-chacinas-prime` with absolute paths (npx html-validate / stylelint /
   prettier). Check with Playwright (`channel="msedge"`) at 1366 px and 390 px.
-- Publishing plan: public GitHub repo `vegamar`, Pages from `main` / root (`.nojekyll` present).
+- Published since 2026-11-16: public repo github.com/cristttina19/vegamar → https://cristttina19.github.io/vegamar/
