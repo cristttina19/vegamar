@@ -24,8 +24,7 @@
     event.hidden = past;
     if (!past) visible += 1;
   }
-  const empty = document.querySelector(".events-empty");
-  if (empty) empty.hidden = visible > 0;
+  for (const empty of document.querySelectorAll(".events-empty")) empty.hidden = visible > 0;
 
   // Sparkles: small twinkling stars and dots inside every [data-sparkles="count"] box
   const colors = ["#a8834a", "#d9bf8c", "#ebc98e", "#fff4de"]; // golds and warm light

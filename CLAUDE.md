@@ -11,7 +11,7 @@ to main publishes the web (`.github/workflows/pages.yml`, GitHub Pages via Actio
   Instagram @vegamar__ (name "Verónica Garijo | Amor, Calma y Gozo en lo simple", bio "Te ayudo a dejar de
   sobrevivir tu vida y empezar a gozártela", "21 NOV - clase gratuita"). The "Sobre mí" paragraph and the short
   service descriptions are drafts written by Claude: to be checked by Vero.
-- Files: `index.html` (all content), `css/estilo.css` (palette in `:root`: Vero's garnet, teja orange, gold, cream — provisional until she sends her exact palette),
+- Files: `index.html` (home), `css/estilo.css` (palette in `:root`: Vero's garnet, teja orange, gold, cream — provisional until she sends her exact palette),
   `css/fonts.css` + `fonts/` (Fraunces, Work Sans, local), `js/main.js` (WhatsApp links from `data-wa`, phone menu,
   sparkles from `data-sparkles`, hides `.event` after `data-until`), `img/favicon.svg` (sun mark).
 - Strict Content-Security-Policy meta: no inline scripts or `style=""` attributes; no third-party requests.
@@ -24,3 +24,9 @@ to main publishes the web (`.github/workflows/pages.yml`, GitHub Pages via Actio
   → «Volver a ti» (programa de transformación en el camino al éxtasis, 8 semanas de acompañamiento, 897 €; during
   launches she lowers it to 677/693 €). Lectura álmica = 150 € (sesión + documento PDF). She helps «personas», not
   only women. She will send photos, her exact palette and the descriptions of everything.
+- Since 2026-11-16 (Vero's request, modelled on space.soulshambhala.com/viaje-al-ser-lista-de-espera/): short home
+  that links to one landing per offer: `masterclass/`, `reiki/`, `sanacion-de-utero/`, `lectura-almica/`, `cursos/`,
+  `volver-a-ti/` (plain HTML, relative paths `../`, shared css/js). Landing blocks: `.lp-hero` + `.facts`,
+  `.checklist`, `.steps`, `.about-mini`, `.faq` (details), `.final`. All landing copy beyond the facts is a draft
+  by Claude, gender-neutral (she works with «personas»): replace it with Vero's descriptions when they arrive.
+  Prices appear both on the home and on each landing. Photos: `img/fotos/` from Desktop\claudeegamar\perfil.jpeg.
