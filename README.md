@@ -47,8 +47,8 @@ Google ni a nadie, así que no necesita aviso de cookies.
 Publicada en **https://cristttina19.github.io/vegamar/** (repositorio `cristttina19/vegamar`).
 
 Se actualiza sola: cada `git push` a `main` la vuelve a publicar en 1-2 minutos
-(`.github/workflows/pages.yml`; se puede seguir en la pestaña *Actions* de GitHub). Solo se publican los archivos
-de la web (`index.html`, `css`, `js`, `fonts`, `img`).
+(`.github/workflows/pages.yml`; se puede seguir en la pestaña *Actions* de GitHub). Se publica todo menos las notas
+(`README.md`, `CLAUDE.md`) y la configuración.
 
 Más adelante se le puede poner un dominio propio (por ejemplo `vegamar.es`) en *Settings → Pages*.
 

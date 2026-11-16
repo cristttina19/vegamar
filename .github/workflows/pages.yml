@@ -1,5 +1,5 @@
 # Automatic publishing: every push to main updates the web on GitHub Pages.
-# Only the web files are published (not README, CLAUDE.md or the style configs).
+# Everything is published except git files, README, CLAUDE.md and the style configs.
 name: Publicar web
 
 on:
@@ -27,8 +27,8 @@ jobs:
 
       - name: Copiar solo los archivos de la web
         run: |
-          mkdir _site
-          cp -r index.html css js fonts img .nojekyll _site/
+          rsync -a --exclude='.git*' --exclude='.github' --exclude='*.md' \
+            --exclude='.*rc*.json' --exclude='.htmlvalidate.json' ./ _site/
 
       - uses: actions/configure-pages@v5
 
